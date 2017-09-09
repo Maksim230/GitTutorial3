@@ -21,5 +21,13 @@ namespace projects
         {
             MessageBox.Show("Привет");
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 50; i++)
+            {
+                MessageBox.Show("Здарова");
+            }
+        }
     }
 }
